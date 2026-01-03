@@ -1,0 +1,171 @@
+================================================================================
+                    NETFLIX DATA ANALYSIS PROJECT
+              Requirements Specification Document v1.0
+================================================================================
+
+PROJECT INFORMATION
+-------------------
+Title       : Netflix Data Cleaning, Analysis and Visualisation
+Domain      : Data Analytics & Data Science
+Level       : Intermediate
+Tools       : Python, SQL, Excel, Tableau
+
+
+================================================================================
+                        INSTALLATION INSTRUCTIONS
+================================================================================
+
+QUICK START:
+    pip install -r requirements.txt
+
+OR INSTALL INDIVIDUALLY:
+    pip install package_name==version_number
+
+================================================================================
+                        REQUIRED PYTHON LIBRARIES
+================================================================================
+
+1. CORE DATA MANIPULATION LIBRARIES
+   ---------------------------------
+
+   pandas==2.1.4
+   Purpose: Data manipulation, CSV reading, data cleaning, missing value handling
+   Use: DataFrames, group by operations, data transformations
+   
+   Numpy==1.26.2
+   Purpose: Numerical computing, array operations, mathematical functions
+   Use: Statistical analysis, numerical data processing
+
+
+2. DATA VISUALISATION LIBRARIES
+   -----------------------------
+
+   Matplotlib==3.8.2
+   Purpose: Primary plotting library for creating static visualisations
+   Use: Line plots, bar charts, pie charts, histograms
+   
+   Seaborn==0.13.0
+   Purpose: Statistical data visualisation with enhanced aesthetics
+   Use: Count plots, distribution plots, heat maps
+   
+   wordcloud==1.9.3
+   Purpose: Generate word cloud visualisations from text data
+   Use: Movie title analysis, genre visualisation
+
+
+3. JUPYTER NOTEBOOK ENVIRONMENT (Recommended)
+   -------------------------------------------
+
+   Jupyter==1.0.0
+   Purpose: Interactive development environment
+   Use: Step-by-step code execution, documentation, presentations
+   
+   Ipython==8.18.1
+   Purpose: Enhanced Python interactive shell
+   Use: Debugging, testing, quick experiments
+
+
+4. UTILITY LIBRARIES
+   ------------------
+
+   Python-dateutil==2.8.2
+   Purpose: Robust date/time parsing
+   Use: Converting date_added column to date time format
+   
+   Pillow==10.1.0
+   Purpose: Python Imaging Library for image processing
+   Use: Word cloud image generation and manipulation
+
+
+5. OPTIONAL LIBRARIES (Uncomment if needed)
+   -----------------------------------------
+
+   # Psycopg2-binary==2.9.9
+   # Purpose: PostgreSQL database adapter for SQL operations
+   
+   # Sqlalchemy==2.0.23
+   # Purpose: SQL toolkit and ORM for database connections
+   
+   # Plotly==5.18.0
+   # Purpose: Interactive plotting for dashboards and 3D visualisations
+
+================================================================================
+                          SYSTEM REQUIREMENTS
+================================================================================
+
+Python Version    : 3.8 or higher (Recommended: 3.9 - 3.11)
+Operating System  : Windows, macOS, or Linux
+RAM              : Minimum 4GB (8GB recommended)
+Storage          : At least 500MB free space
+Internet         : Required for package installation
+
+================================================================================
+                         PROJECT DELIVERABLES
+================================================================================
+
+DATA CLEANING
+  - Handle missing values (director, cast, country)
+  - Remove duplicate entries
+  - Convert date formats to datetime
+  - Correct data types for all columns
+
+EXPLORATORY DATA ANALYSIS
+  - Content type distribution (Movies vs TV Shows)
+  - Genre popularity analysis
+  - Content addition trends over time
+  - Top directors analysis
+  - Country-wise content distribution
+  - Rating frequency analysis
+
+DATA VISUALISATIONS
+  - Bar plots for categorical data
+  - Line plots for time series trends
+  - Pie charts for proportional data
+  - Word clouds for textual analysis
+  - Count plots for distributions
+  - Multi-panel comparative visualisations
+
+MACHINE LEARNING PREPARATION
+  - Feature engineering from existing columns
+  - Data preprocessing pipelines
+  - Dataset optimisation for ML models
+  - Train-test split preparation
+
+================================================================================
+                        TROUBLESHOOTING GUIDE
+================================================================================
+
+COMMON ISSUES AND SOLUTIONS:
+
+1. Outdated pip version:
+   pip install --upgrade pip
+
+2. Permission errors:
+   pip install --user -r requirements.txt
+
+3. Check Python version:
+   python --version
+   (Ensure it shows 3.8 or higher)
+
+4. Windows compilation errors:
+   pip install --only-binary :all: package_name
+
+================================================================================
+                         PROFESSIONAL NOTES
+================================================================================
+
+This requirements file follows industry best practices:
+- All versions are pinned for reproducibility
+- Libraries are categorised by purpose
+- Complete documentation for each dependency
+- Scalable for future enhancements
+- Production-ready configuration
+
+These libraries represent the standard toolkit for professional data analysis
+and are widely adopted in the industry for their reliability, performance,
+and extensive community support.
+
+================================================================================
+                              END OF DOCUMENT
+================================================================================
+

@@ -1,0 +1,43 @@
+================================
+ Python & Jupyter Notebook
+================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+================================
+ Virtual Environment
+================================
+venv/
+env/
+ENV/
+.venv/
+
+================================
+ OS Generated Files
+================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+================================
+ IDE / Editor Files
+================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+================================
+ Data Files (Optional – keep if asked)
+================================
+*.csv
+*.xlsx
+
+================================
+  Logs & Temporary Files
+================================
+*.log
+*.tmp
