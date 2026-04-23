@@ -1,6 +1,6 @@
- 📊 Netflix Data Analysis Project
+  Netflix Data Analysis Project
 
-## 📌 Project Overview
+## Project Overview
 This project performs **Exploratory Data Analysis (EDA)** on a Netflix dataset using Python.  
 The goal is to understand the structure, quality, and patterns in Netflix content such as movies and TV shows by cleaning the data and extracting meaningful insights.
 
